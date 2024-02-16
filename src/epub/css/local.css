@@ -26,3 +26,8 @@ blockquote[xml|lang]{
 q{
 	font-style: italic;
 }
+
+.headline{
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
