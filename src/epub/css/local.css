@@ -90,4 +90,11 @@ footer{
 
 #chapter-17 table td{
 	vertical-align: top;
+	border-spacing: 0;
+}
+
+#chapter-17 table tr:last-child > td tr td{
+	border-top: solid 1px;
+	text-align: right;
+	width: 100%;
 }
