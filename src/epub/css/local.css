@@ -114,3 +114,7 @@ footer{
 #chapter-17 thead:nth-of-type(2) th{
 	text-align: right;
 }
+
+#chapter-17 tr td:nth-of-type(2){
+	padding-left: 30px;
+}
