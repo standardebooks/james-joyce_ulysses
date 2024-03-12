@@ -3,7 +3,13 @@
 	<file path="chapter-3.xhtml">
 		<ignore>
 			<code>y-001</code>
-			<reason>Sequence of 'and' is correct per Joyce's prose style.</reason>
+			<reason>Sequence of "and" is correct per Joyce's prose style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3.xhtml">
+		<ignore>
+			<code>y-026</code>
+			<reason>Name of the church "Or san Michele" has not been modernised.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
