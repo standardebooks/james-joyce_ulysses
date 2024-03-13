@@ -12,4 +12,22 @@
 			<reason>Name of the church "Or san Michele" has not been modernised.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-4.xhtml">
+		<ignore>
+			<code>t-010</code>
+			<reason>Times set with period rather than colon per Joyce's prose style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-4.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>Title left as-is per Joyce's prose style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>Titles left as-is per Joyce's prose style.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
