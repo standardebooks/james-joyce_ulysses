@@ -24,10 +24,22 @@
 			<reason>Title left as-is per Joyce's prose style.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-7.xhtml">
+		<ignore>
+			<code>t-029</code>
+			<reason>Lowercase letters appear after periods due to Joyce spelling a name backwards.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-8.xhtml">
 		<ignore>
 			<code>t-064</code>
 			<reason>Titles left as-is per Joyce's prose style.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-8.xhtml">
+		<ignore>
+			<code>t-043</code>
+			<reason>Joyce's italics are not being modified.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
