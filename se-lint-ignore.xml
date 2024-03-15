@@ -42,4 +42,16 @@
 			<reason>Joyce's italics are not being modified.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-18.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>Paragraphs beginning with lowercase letters is correct per the style of the monologue.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-18.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>Paragraphs missing ending punctuation is correct per the style of the monologue.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
