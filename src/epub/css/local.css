@@ -71,6 +71,10 @@ footer{
 	margin-top: 2em;
 }
 
+[epub|type~="z3998:dramatis-personae"] b{
+	font-style: normal;
+}
+
 @supports(display: flex){
 	#chapter-9 li:nth-of-type(3){
 		align-items: center;
