@@ -84,6 +84,36 @@
 			<reason>Missing ending punctuation is correct per pre-1929 page scans.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-12.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>The non-English phrases are independent clauses.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-12.xhtml">
+		<ignore>
+			<code>t-043</code>
+			<reason>Joyce's italics are not modified in this production.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-12.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>Joyce's titlecasing is not modified in this production.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-13.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>Joyce's titlecasing is not modified in this production.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-14.xhtml">
+		<ignore>
+			<code>t-064</code>
+			<reason>Joyce's titlecasing is not modified in this production.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-18.xhtml">
 		<ignore>
 			<code>t-057</code>
