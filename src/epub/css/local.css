@@ -93,6 +93,7 @@ footer{
 }
 
 #chapter-17 table{
+	font-variant-numeric: tabular-nums;
 	margin: 1em auto 1em auto;
 }
 
