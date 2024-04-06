@@ -92,6 +92,10 @@ footer{
 	}
 }
 
+#chapter-17 table{
+	margin: 1em auto 1em auto;
+}
+
 #chapter-17 table td{
 	border-spacing: 0;
 	vertical-align: top;
