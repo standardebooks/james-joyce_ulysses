@@ -67,10 +67,6 @@ footer{
 	margin: 1em;
 }
 
-[epub|type~="z3998:dramatis-personae"] ul + p{
-	margin-top: 2em;
-}
-
 [epub|type~="z3998:dramatis-personae"] b{
 	font-style: normal;
 }
@@ -164,12 +160,6 @@ table[epub|type~="z3998:drama"]{
 
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
-}
-
-[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
 }
 
 [epub|type~="z3998:stage-direction"]::before{
