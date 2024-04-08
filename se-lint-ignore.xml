@@ -86,6 +86,12 @@
 	</file>
 	<file path="chapter-12.xhtml">
 		<ignore>
+			<code>s-045</code>
+			<reason>This abbreviation of a religious order does not qualify as an initialism.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-12.xhtml">
+		<ignore>
 			<code>t-017</code>
 			<reason>The non-English phrases are independent clauses.</reason>
 		</ignore>
@@ -130,6 +136,12 @@
 		<ignore>
 			<code>t-064</code>
 			<reason>Joyce's titlecasing is not modified in this production.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-17.xhtml">
+		<ignore>
+			<code>t-010</code>
+			<reason>Time setting is not modified in this production.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-18.xhtml">
