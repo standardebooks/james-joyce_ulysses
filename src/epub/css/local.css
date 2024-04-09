@@ -95,6 +95,10 @@ footer{
 	}
 }
 
+#chapter-4 blockquote:last-of-type p{
+	text-indent: 0;
+}
+
 #chapter-17 table{
 	font-variant-numeric: tabular-nums;
 	margin: 1em auto 1em auto;
