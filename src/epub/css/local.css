@@ -192,3 +192,7 @@ section[epub|type~="z3998:scene"] > p{
 	width: 75%;
 }
 /* End drama */
+
+blockquote{
+	font-style: italic;
+}
