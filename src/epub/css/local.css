@@ -153,6 +153,10 @@ footer{
 	padding-left: 30px;
 }
 
+#chapter-17 p:nth-of-type(300){
+	text-align: center;
+}
+
 /* Drama */
 [epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
