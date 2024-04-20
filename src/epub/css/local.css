@@ -217,6 +217,11 @@ section[epub|type~="z3998:scene"] > p{
 }
 /* End drama */
 
+#chapter-15 tr:nth-of-type(299) div p{
+	text-align: center;
+	text-indent: none;
+}
+
 #chapter-15 tr:nth-of-type(37) p:nth-of-type(2) i::before,
 #chapter-15 tr:nth-of-type(37) p:nth-of-type(3) i::before{
 	content: "";
