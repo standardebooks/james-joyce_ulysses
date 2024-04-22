@@ -54,6 +54,10 @@ q{
 	font-style: italic;
 }
 
+i > q{
+	font-style: normal;
+}
+
 .headline{
 	font-size: 1.5em;
 	text-transform: uppercase;
