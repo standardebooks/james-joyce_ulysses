@@ -68,12 +68,22 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="z3998:letter"] header{
+#chapter-12 [epub|type~="z3998:letter"] header p:nth-of-type(1){
 	text-align: right;
 }
 
-[epub|type~="z3998:salutation"] + p{
-	text-indent: 0;
+#chapter-12 [epub|type~="z3998:letter"] header p:nth-of-type(2){
+	text-align: initial;
+	text-indent: 5em;
+}
+
+#chapter-12 [epub|type~="z3998:letter"] header p:nth-of-type(3){
+	text-align: initial;
+	text-indent: 15em;
+}
+
+#chapter-12 footer p:nth-of-type(1){
+	padding-right: 3em;
 }
 
 [epub|type~="z3998:postscript"]{
