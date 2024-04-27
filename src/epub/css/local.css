@@ -26,17 +26,12 @@ abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
-blockquote[xml|lang]{
+blockquote{
 	font-style: italic;
 }
 
 p span.i1{
 	padding-left: 2em;
-	text-indent: -1em;
-}
-
-p span.i2{
-	padding-left: 3em;
 	text-indent: -1em;
 }
 
@@ -66,6 +61,16 @@ i > q{
 footer{
 	margin-top: 1em;
 	text-align: right;
+}
+
+#chapter-4 [epub|type~="z3998:letter"],
+#chapter-5 [epub|type~="z3998:letter"]{
+	font-style: normal;
+}
+
+#chapter-4 [epub|type~="z3998:salutation"],
+#chapter-5 [epub|type~="z3998:salutation"]{
+	padding-left: 4em;
 }
 
 #chapter-12 [epub|type~="z3998:letter"] header p:nth-of-type(1){
@@ -207,8 +212,16 @@ table[epub|type~="z3998:drama"]{
 	width: 20%;
 }
 
+td[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
+}
+
 [epub|type~="z3998:stage-direction"]{
 	font-style: italic;
+}
+
+[epub|type~="z3998:stage-direction"] i{
+	font-style: normal;
 }
 
 [epub|type~="z3998:stage-direction"]::before{
@@ -219,10 +232,6 @@ table[epub|type~="z3998:drama"]{
 [epub|type~="z3998:stage-direction"]::after{
 	content: ")";
 	font-style: normal;
-}
-
-[epub|type~="z3998:persona"]{
-	font-variant: all-small-caps;
 }
 
 section[epub|type~="z3998:scene"] > p{
@@ -244,8 +253,4 @@ section[epub|type~="z3998:scene"] > p{
 #chapter-15 tr:nth-of-type(37) p:nth-of-type(1) i::after,
 #chapter-15 tr:nth-of-type(37) p:nth-of-type(2) i::after{
 	content: "";
-}
-
-blockquote{
-	font-style: italic;
 }
