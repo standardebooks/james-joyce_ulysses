@@ -138,6 +138,11 @@ footer{
 	text-indent: 0;
 }
 
+#chapter-9 div[epub|type="z3998:verse"]{
+	margin-left: 4em;
+	margin-top: 2em;
+}
+
 #chapter-17 table{
 	font-variant-numeric: tabular-nums;
 	margin: 1em auto 1em auto;
