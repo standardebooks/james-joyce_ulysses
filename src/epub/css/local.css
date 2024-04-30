@@ -1,6 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* Standard poem and verse CSS */
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
@@ -22,14 +23,7 @@
 	display: none;
 }
 
-abbr[epub|type~="se:era"]{
-	font-variant: all-small-caps;
-}
-
-blockquote{
-	font-style: italic;
-}
-
+/* Verse indentation */
 p span.i1{
 	padding-left: 2em;
 	text-indent: -1em;
@@ -45,6 +39,17 @@ p span.i5{
 	text-indent: -1em;
 }
 
+/* Era abbreviations */
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
+/* Italicize all blockquotes in prose */
+blockquote{
+	font-style: italic;
+}
+
+/* Quotations */
 q{
 	font-style: italic;
 }
@@ -53,11 +58,13 @@ i > q{
 	font-style: normal;
 }
 
+/* Headline class for Ch. 7 */
 .headline{
 	font-size: 1.5em;
 	text-transform: uppercase;
 }
 
+/* Letters */
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -97,6 +104,7 @@ footer{
 	text-indent: 0;
 }
 
+/* Dramatis personae in Ch. 9 */
 [epub|type~="z3998:dramatis-personae"]{
 	list-style: none;
 	margin: 0;
@@ -134,10 +142,12 @@ footer{
 	}
 }
 
+/* Heigho blockquote in Ch. 4 */
 #chapter-4 blockquote:last-of-type p{
 	text-indent: 0;
 }
 
+/* Eglinton speech in Ch. 9 */
 #chapter-9 div[epub|type="z3998:verse"]{
 	margin-left: 4em;
 	margin-top: 2em;
@@ -159,18 +169,18 @@ footer{
 	text-align: right;
 }
 
-/* Add padding between two sides of table */
+/* Padding between two sides of table */
 #chapter-17 tbody > tr:nth-of-type(1) > td:nth-of-type(2){
 	padding-left: 20px;
 }
 
-/* Style 'Balance' */
+/* 'Balance' styling */
 #chapter-17 tbody > tr:nth-of-type(1) > td:nth-of-type(1) > tr:last-of-type > td:first-of-type{
 	padding-left: 7.7em;
 	text-transform: uppercase;
 }
 
-/* Set width and alignment of columns of numerals */
+/* Width and alignment of columns of numerals */
 #chapter-17 table td > tr td:nth-of-type(2),
 #chapter-17 table td > tr td:nth-of-type(3),
 #chapter-17 table td > tr td:nth-of-type(4){
@@ -178,12 +188,12 @@ footer{
 	text-align: right;
 }
 
-/* Add padding between text and numerals */
+/* Padding between text and numerals */
 #chapter-17 table td > tr td:nth-of-type(2){
 	padding-left: 10px;
 }
 
-/* Style cells with total 2.19.3 */
+/* Cells with total 2.19.3 */
 #chapter-17 table tr:last-child tr td:nth-of-type(2),
 #chapter-17 table tr:last-child tr td:nth-of-type(3),
 #chapter-17 table tr:last-child tr td:nth-of-type(4){
@@ -192,7 +202,7 @@ footer{
 	text-align: right;
 }
 
-/* Style pound symbol cells */
+/* Pound symbol cells */
 #chapter-17 table tr:last-child tr td:nth-of-type(1){
 	border-top: none;
 	text-align: right;
@@ -201,11 +211,12 @@ footer{
 }
 /* End budget table */
 
+/* Center 'order of precedence' p in Ch. 17 */
 #chapter-17 p:nth-of-type(300){
 	text-align: center;
 }
 
-/* Drama */
+/* Drama styling for Ch. 15 */
 [epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
@@ -269,11 +280,20 @@ section[epub|type~="z3998:scene"] > p{
 }
 /* End drama */
 
+/* Blockquote margins for songs and verse in Ch. 15 */
+#chapter-15 [epub|type~="z3998:song"] p,
+#chapter-15 [epub|type~="z3998:verse"] p,
+#chapter-15 [epub|type~="z3998:poem"] p,
 #chapter-15 tr:nth-of-type(299) div p{
-	text-align: center;
-	text-indent: none;
+	margin: 1em 2.5em;
 }
 
+/* Blockquotes in Ch. 15 */
+#chapter-15 blockquote{
+	font-style: normal;
+}
+
+/* Multi-paragraph stage directions */
 #chapter-15 tr:nth-of-type(37) p:nth-of-type(2) i::before,
 #chapter-15 tr:nth-of-type(37) p:nth-of-type(3) i::before{
 	content: "";
