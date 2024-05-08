@@ -158,6 +158,12 @@ footer{
 	margin-top: 2em;
 }
 
+/* Centered blockquotes in Ch. 9 */
+#chapter-9 blockquote:nth-of-type(4),
+#chapter-9 blockquote:nth-of-type(16){
+	text-align: center;
+}
+
 /* Ch. 17 budget table */
 /* General styling */
 #chapter-17 table{
