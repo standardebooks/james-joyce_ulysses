@@ -161,58 +161,69 @@ footer{
 /* Ch. 17 budget table */
 /* General styling */
 #chapter-17 table{
+	border-spacing: 0;
 	font-variant-numeric: tabular-nums;
 	margin: 1em auto 1em auto;
 }
 
 #chapter-17 table td{
-	border-spacing: 0;
 	vertical-align: top;
 }
 
-#chapter-17 thead:nth-of-type(2) th{
+/* All table headers */
+#chapter-17 table > thead{
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* £.s.d. headers */
+#chapter-17 table > tbody > tr > td > table > thead{
+	min-width: 1em;
 	text-align: right;
 }
 
 /* Padding between two sides of table */
-#chapter-17 tbody > tr:nth-of-type(1) > td:nth-of-type(2){
+#chapter-17 table > tbody > tr > td:nth-of-type(2) > table > tbody > tr > td:first-of-type{
 	padding-left: 20px;
 }
 
 /* 'Balance' styling */
-#chapter-17 tbody > tr:nth-of-type(1) > td:nth-of-type(1) > tr:last-of-type > td:first-of-type{
+#chapter-17 table > tbody > tr > td:first-of-type > table > tbody > tr:last-of-type > td:first-of-type{
 	padding-left: 7.7em;
 	text-transform: uppercase;
 }
 
-/* Width and alignment of columns of numerals */
-#chapter-17 table td > tr td:nth-of-type(2),
-#chapter-17 table td > tr td:nth-of-type(3),
-#chapter-17 table td > tr td:nth-of-type(4){
+/* Width and alignment of columns of numerals, including £.s.d. header */
+#chapter-17 table tbody td tr td:nth-of-type(2),
+#chapter-17 table tbody td tr td:nth-of-type(3),
+#chapter-17 table tbody td tr td:nth-of-type(4){
 	min-width: 1em;
 	text-align: right;
 }
 
 /* Padding between text and numerals */
-#chapter-17 table td > tr td:nth-of-type(2){
-	padding-left: 10px;
+#chapter-17 table > tbody > tr > td > table > tbody > tr > td:nth-of-type(1){
+	padding-right: 10px;
 }
 
-/* Cells with total 2.19.3 */
-#chapter-17 table tr:last-child tr td:nth-of-type(2),
-#chapter-17 table tr:last-child tr td:nth-of-type(3),
-#chapter-17 table tr:last-child tr td:nth-of-type(4){
+#chapter-17 table > tbody > tr > td > table > tbody > tr > td:nth-of-type(2){
+	padding-left: 5px;
+}
+
+/* Table footers */
+#chapter-17 table tfoot tr td:nth-of-type(2),
+#chapter-17 table tfoot tr td:nth-of-type(3),
+#chapter-17 table tfoot tr td:nth-of-type(4){
 	border-top: solid 1px;
 	min-width: 1em;
 	text-align: right;
 }
 
-/* Pound symbol cells */
-#chapter-17 table tr:last-child tr td:nth-of-type(1){
+/* Pound symbol cells within table footers */
+#chapter-17 table tfoot tr td:nth-of-type(1){
 	border-top: none;
 	text-align: right;
 	vertical-align: bottom;
-	width: 100%;
 }
 /* End budget table */
 
