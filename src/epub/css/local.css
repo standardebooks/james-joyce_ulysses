@@ -166,10 +166,24 @@ footer{
 
 /* Ch. 17 budget table */
 /* General styling */
+#chapter-17 div table{
+	/* side-by-side tables by default */
+	display: inline-table;
+	margin: 1em;
+	width: 47%;
+}
+
 #chapter-17 table{
 	border-spacing: 0;
 	font-variant-numeric: tabular-nums;
-	margin: 1em auto 1em auto;
+}
+
+@media(max-width: 600px){
+	#chapter-17 div table{
+		/* stack tables on small screens */
+		display: block;
+		width: 100%;
+	}
 }
 
 /* All table headers */
@@ -179,13 +193,13 @@ footer{
 }
 
 /* £.s.d. headers */
-#chapter-17 table > thead > tr:nth-of-type(2){
+#chapter-17 table > thead > tr:last-of-type{
 	font-style: normal;
 	text-align: right;
 }
 
 /* 'Balance' styling */
-#chapter-17 table > tbody > tr:last-of-type > td:first-of-type{
+#chapter-17 table:first-of-type > tbody > tr:last-of-type > td:first-of-type{
 	padding-left: 7.7em;
 	text-transform: uppercase;
 }
@@ -193,23 +207,14 @@ footer{
 /* Width and alignment of columns of numerals */
 #chapter-17 table tbody tr td:nth-of-type(2),
 #chapter-17 table tbody tr td:nth-of-type(3),
-#chapter-17 table tbody tr td:nth-of-type(4),
-#chapter-17 table tbody tr td:nth-of-type(6),
-#chapter-17 table tbody tr td:nth-of-type(7),
-#chapter-17 table tbody tr td:nth-of-type(8){
+#chapter-17 table tbody tr td:nth-of-type(4){
 	min-width: 1em;
 	text-align: right;
 }
 
 /* Padding between text and numerals */
-#chapter-17 table > tbody > tr > td:nth-of-type(1),
-#chapter-17 table > tbody > tr > td:nth-of-type(5){
+#chapter-17 table > tbody > tr > td:first-of-type{
 	padding-right: 10px;
-}
-
-/* Padding between two sides of table */
-#chapter-17 table > tbody > tr > td:nth-of-type(5){
-	padding-left: 20px;
 }
 
 /* Table footers */
@@ -220,8 +225,7 @@ footer{
 }
 
 /* Pound symbol cells within table footers */
-#chapter-17 table tfoot tr td:nth-of-type(1),
-#chapter-17 table tfoot tr td:nth-of-type(5){
+#chapter-17 table tfoot tr td:first-of-type{
 	border-top: none;
 }
 /* End budget table */
