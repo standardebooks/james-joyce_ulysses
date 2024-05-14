@@ -230,6 +230,12 @@ footer{
 }
 /* End budget table */
 
+/* Unordered book list in Ch. 17 */
+#chapter-17 ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
 /* Center 'order of precedence' p in Ch. 17 */
 #chapter-17 p:nth-of-type(300){
 	text-align: center;
