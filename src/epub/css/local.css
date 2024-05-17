@@ -23,6 +23,10 @@
 	display: none;
 }
 
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
+
 /* Verse indentation */
 p span.i1{
 	padding-left: 2em;
