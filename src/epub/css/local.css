@@ -70,6 +70,9 @@ i > q{
 /* Headline class for Ch. 7 */
 .headline{
 	font-size: 1.5em;
+	margin: 1em 0;
+	text-align: center;
+	text-indent: 0;
 	text-transform: uppercase;
 }
 
