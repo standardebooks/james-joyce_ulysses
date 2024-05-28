@@ -74,7 +74,7 @@ i > q{
 
 /* Headline class for Ch. 7 */
 .headline{
-	font-size: 1.5em;
+	font-size: larger;
 	margin: 1em 0;
 	text-align: center;
 	text-indent: 0;
@@ -160,11 +160,11 @@ footer{
 
 	#chapter-9 li:nth-of-type(3) p:first-of-type{
 		border-right: 1px solid;
-		padding-right: 10px;
+		padding-right: 1em;
 	}
 
 	#chapter-9 li:nth-of-type(3) p:last-of-type{
-		padding-left: 10px;
+		padding-left: 1em;
 	}
 }
 
@@ -209,11 +209,11 @@ footer{
 
 /* Ch. 17 budget table */
 /* General styling */
-#chapter-17 div table{
+#chapter-17  table{
 	/* side-by-side tables by default */
 	display: inline-table;
 	margin: 1em;
-	width: 47%;
+	width: 45%;
 }
 
 #chapter-17 table{
@@ -222,7 +222,7 @@ footer{
 }
 
 @media(max-width: 600px){
-	#chapter-17 div table{
+	#chapter-17 table{
 		/* stack tables on small screens */
 		display: block;
 		width: 100%;
@@ -243,7 +243,7 @@ footer{
 
 /* 'Balance' styling */
 #chapter-17 table:first-of-type > tbody > tr:last-of-type > td:first-of-type{
-	padding-left: 7.7em;
+	padding-left: 8em;
 	text-transform: uppercase;
 }
 
@@ -257,7 +257,7 @@ footer{
 
 /* Padding between text and numerals */
 #chapter-17 table > tbody > tr > td:first-of-type{
-	padding-right: 10px;
+	padding-right: 1em;
 }
 
 /* Table footers */
@@ -276,7 +276,7 @@ footer{
 /* Unordered book list in Ch. 17 */
 #chapter-17 ul li{
 	list-style: none;
-	margin-bottom: 10px;
+	margin-bottom: 1em;
 }
 
 /* Center 'order of precedence' p in Ch. 17 */
