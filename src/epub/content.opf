@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/james-joyce/ulysses</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-05-28T04:49:30Z</dc:date>
+		<meta property="dcterms:modified">2024-05-28T04:49:30Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -89,8 +89,8 @@
 		<!--Scans of 1927 Shakespeare and Company ninth printing (second edition)-->
 		<dc:source>https://archive.org/details/ulyssesroth1929</dc:source>
 		<meta property="se:production-notes">This ebook is based on Wikisource's transcription of the 1922 Shakespeare and Company first edition. Two sorts of changes were made here to that transcription: typographical and editorial. The typographical changes consist of running the SE tool typogrify, without accepting some of its changes, notably additions of periods after titles, removals of periods and spaces from era abbreviations, and conversions of sequences of more than three periods to ellipses. The editorial changes consist of both corrections from the pre-1929 errata lists and emendations that do not appear on the errata lists; all appear in either a pre-1929 errata list or scans of a pre-1929 print edition, hence all changes are in the public domain. The editiorial changes can be categorized in turn into two further types: corrections accepted from Wikisource, who aimed both to faithfully reproduce the 1922 first edition text and to provide corrections to that edition's errors within span tags; and those made by the SE producer. Not all of the corrections within span tags in the Wikisource transcription were in the public domain (that is, some were sourced from post-1929 print editions such as Gilbert's or Gabler's) and not all were attested (that is, some appear to have been simply invented by Wikisource contributors); all of these were checked against the 1922 scans, 1927 9th printing scans, and Hans Walter Gabler's historical collation list, and those that were either post-1929 or unattested were removed. Corrections made by the SE producer consist in changing the 1922 text to conform to the 1927 9th printing when the 1922 text appeared erroneous and the 1927 text correct, again checking each against the historical collation list to aid judgement. (In a small number of cases, the relevant discrepancy between editions was not noted by Gabler.) The 1927 Shakespeare and Company 9th printing was used throughout the project because no other pre-1929 scans could be found. This 1927 printing introduces sometimes substantial errors of its own, and so it is worth emphasizing that this SE edition does not aim to exactly reproduce any pre-1929 print edition; it aims to contain the intersection of what can reasonably be regarded as justifiable or "correct" from both main sets of scans used. In some cases, neither the 1922 nor 1927 scans were "correct", or there was so much variation across editions (both PD and non-PD) that no such thing as a "correct" variant can reasonably be said to exist. In these latter cases, the 1922 and 1927 scans often agreed; where they differed, the 1922 variant was generally retained in this SE edition to avoid changes for change's sake.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">268499</meta>
+		<meta property="se:reading-ease.flesch">75.2</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Ulysses</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-joyce_ulysses</meta>
 		<dc:creator id="author">James Joyce</dc:creator>
@@ -119,6 +119,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
