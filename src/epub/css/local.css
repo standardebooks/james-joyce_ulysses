@@ -111,8 +111,10 @@ footer{
 	text-indent: 15em;
 }
 
-#chapter-12 footer p:nth-of-type(1){
-	padding-right: 3em;
+#chapter-12 footer p{
+	padding-left: 70vw;
+	text-align: initial;
+	text-indent: -2em;
 }
 
 [epub|type~="z3998:postscript"]{
