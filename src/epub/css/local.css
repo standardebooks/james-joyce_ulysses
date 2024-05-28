@@ -363,3 +363,8 @@ tr.together td + td{
 #chapter-15 tr:nth-of-type(37) p:nth-of-type(2) i::after{
 	content: "";
 }
+
+/* Top margin class for Ch. 17 */
+#chapter-17 .query{
+	margin-top: 1.5em;
+}
