@@ -185,6 +185,11 @@ footer{
 	text-align: center;
 }
 
+/* Top margin below "Begin!" at beginning of Ch. 11 */
+#chapter-11 p:nth-of-type(60){
+	margin-top: 1em;
+}
+
 /* Ch. 17 budget table */
 /* General styling */
 #chapter-17 div table{
