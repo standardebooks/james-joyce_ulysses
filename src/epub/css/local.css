@@ -201,6 +201,12 @@ footer{
 	margin-top: 1em;
 }
 
+/* Blockquoted address text in Ch. 11 */
+#chapter-11 blockquote:first-of-type{
+	font-style: normal;
+	text-align: center;
+}
+
 /* Ch. 17 budget table */
 /* General styling */
 #chapter-17 div table{
