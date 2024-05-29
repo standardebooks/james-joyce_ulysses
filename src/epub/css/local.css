@@ -123,6 +123,13 @@ footer{
 	text-indent: 0;
 }
 
+/* Blockquoted address text in Ch. 5 */
+#chapter-5 blockquote:first-of-type p{
+	font-style: normal;
+	padding-left: 70vw;
+	text-indent: -2em;
+}
+
 /* Dramatis personae in Ch. 9 */
 [epub|type~="z3998:dramatis-personae"]{
 	list-style: none;
