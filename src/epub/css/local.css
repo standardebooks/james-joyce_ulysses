@@ -190,6 +190,17 @@ footer{
 	margin-top: 1em;
 }
 
+/* Non-blockquoted song fragments in Ch. 11 */
+#chapter-11 p > q > span:last-of-type{
+	margin-left: 1em;
+}
+
+/* Non-blockquoted song fragment with top and bottom margins in Ch. 11 */
+#chapter-11 p:nth-of-type(418){
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 /* Ch. 17 budget table */
 /* General styling */
 #chapter-17 div table{
