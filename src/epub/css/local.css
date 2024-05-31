@@ -209,16 +209,13 @@ footer{
 
 /* Ch. 17 budget table */
 /* General styling */
-#chapter-17  table{
+#chapter-17 table{
 	/* side-by-side tables by default */
+	border-spacing: 0;
 	display: inline-table;
+	font-variant-numeric: tabular-nums;
 	margin: 1em;
 	width: 45%;
-}
-
-#chapter-17 table{
-	border-spacing: 0;
-	font-variant-numeric: tabular-nums;
 }
 
 @media(max-width: 600px){
