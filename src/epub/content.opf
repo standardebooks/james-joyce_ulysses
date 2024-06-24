@@ -64,9 +64,12 @@
 		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Novels</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<meta id="collection-2" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
+		<meta id="collection-2" property="belongs-to-collection">Le Monde’s 100 Books of the Century</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="group-position" refines="#collection-2">46</meta>
+		<meta property="group-position" refines="#collection-2">28</meta>
+		<meta id="collection-3" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
+		<meta property="collection-type" refines="#collection-3">set</meta>
+		<meta property="group-position" refines="#collection-3">46</meta>
 		<dc:description id="description">A man passes a day in early twentieth-century Dublin, in a journey patterned on Homer’s Odyssey.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/james-joyce"&gt;James Joyce’s&lt;/a&gt; most celebrated novel, and one of the most highly-regarded novels in the English language, records the events of one day—Thursday the 16th of June, 1904—in the city of Dublin.&lt;/p&gt;
