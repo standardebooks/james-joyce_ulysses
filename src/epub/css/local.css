@@ -396,3 +396,10 @@ tr.together td + td{
 #chapter-17 .query{
 	margin-top: 1.5em;
 }
+
+/* Locations and years at end of Ch. 18 */
+#chapter-18 p:last-of-type{
+	margin-top: 2em;
+	padding-left: 5em;
+	text-indent: -1em;
+}
