@@ -227,6 +227,10 @@
 			<code>t-032</code>
 			<reason>The period terminates the sentence; the initialism in question lacks periods.</reason>
 		</ignore>
+		<ignore>
+			<code>y-034</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
 	</file>
 	<file path="chapter-18.xhtml">
 		<ignore>
