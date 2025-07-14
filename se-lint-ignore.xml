@@ -54,6 +54,12 @@
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-6.xhtml">
+		<ignore>
+			<code>y-035</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-7.xhtml">
 		<ignore>
 			<code>t-029</code>
@@ -123,6 +129,10 @@
 			<code>y-003</code>
 			<reason>Missing ending punctuation is correct per pre-1929 page scans.</reason>
 		</ignore>
+		<ignore>
+			<code>y-035</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
 	</file>
 	<file path="chapter-12.xhtml">
 		<ignore>
@@ -145,6 +155,10 @@
 			<code>t-064</code>
 			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
+		<ignore>
+			<code>y-035</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
 	</file>
 	<file path="chapter-13.xhtml">
 		<ignore>
@@ -164,6 +178,10 @@
 		<ignore>
 			<code>y-001</code>
 			<reason>Repeated 'and' is probably erroneous but only corrected post-1929.</reason>
+		</ignore>
+		<ignore>
+			<code>y-035</code>
+			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-15.xhtml">
@@ -248,6 +266,10 @@
 		<ignore>
 			<code>y-003</code>
 			<reason>Paragraphs missing ending punctuation is correct per the style of the monologue.</reason>
+		</ignore>
+		<ignore>
+			<code>y-035</code>
+			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
