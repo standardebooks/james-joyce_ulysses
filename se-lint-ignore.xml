@@ -76,12 +76,12 @@
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
 		<ignore>
-			<code>t-064</code>
-			<reason>Titles left as-is per Joyce's prose style.</reason>
-		</ignore>
-		<ignore>
 			<code>t-043</code>
 			<reason>Joyce's italics are not modified in this production.</reason>
+		</ignore>
+		<ignore>
+			<code>t-064</code>
+			<reason>Titles left as-is per Joyce's prose style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
@@ -226,24 +226,24 @@
 	</file>
 	<file path="chapter-17.xhtml">
 		<ignore>
-			<code>t-030</code>
-			<reason>Spaces in initialisms are retained in this production.</reason>
-		</ignore>
-		<ignore>
 			<code>c-011</code>
 			<reason>Paragraph is center-aligned to match scans.</reason>
-		</ignore>
-		<ignore>
-			<code>t-064</code>
-			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
 		<ignore>
 			<code>t-010</code>
 			<reason>Time setting is not modified in this production.</reason>
 		</ignore>
 		<ignore>
+			<code>t-030</code>
+			<reason>Spaces in initialisms are retained in this production.</reason>
+		</ignore>
+		<ignore>
 			<code>t-032</code>
 			<reason>The period terminates the sentence; the initialism in question lacks periods.</reason>
+		</ignore>
+		<ignore>
+			<code>t-064</code>
+			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
 		<ignore>
 			<code>y-034</code>
@@ -256,12 +256,12 @@
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
 		<ignore>
-			<code>t-064</code>
-			<reason>Titlecasing is not modified in this production.</reason>
-		</ignore>
-		<ignore>
 			<code>t-057</code>
 			<reason>Paragraphs beginning with lowercase letters is correct per the style of the monologue.</reason>
+		</ignore>
+		<ignore>
+			<code>t-064</code>
+			<reason>Titlecasing is not modified in this production.</reason>
 		</ignore>
 		<ignore>
 			<code>y-003</code>
