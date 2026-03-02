@@ -1,274 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-1.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>y-001</code>
+		<ignore code="y-001">
 			<reason>Sequence of "and" is correct per Joyce's prose style.</reason>
 		</ignore>
-		<ignore>
-			<code>y-026</code>
+		<ignore code="y-026">
 			<reason>Name of the church "Or san Michele" has not been modernised.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-4.xhtml">
-		<ignore>
-			<code>c-015</code>
+		<ignore code="c-015">
 			<reason>First line of letter remains indented in the scans.</reason>
 		</ignore>
-		<ignore>
-			<code>t-010</code>
+		<ignore code="t-010">
 			<reason>Times set with period rather than colon per Joyce's prose style.</reason>
 		</ignore>
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Title left as-is per Joyce's prose style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-5.xhtml">
-		<ignore>
-			<code>c-015</code>
+		<ignore code="c-015">
 			<reason>First line of letter remains indented in the scans.</reason>
 		</ignore>
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-6.xhtml">
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-7.xhtml">
-		<ignore>
-			<code>t-029</code>
+		<ignore code="t-029">
 			<reason>Lowercase letters appear after periods due to Joyce spelling a name backwards.</reason>
 		</ignore>
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-8.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-043</code>
+		<ignore code="t-043">
 			<reason>Joyce's italics are not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Titles left as-is per Joyce's prose style.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-9.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>y-005</code>
+		<ignore code="y-005">
 			<reason>Italics on exclamation mark retained in accordance with scans.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-10.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>Punctuation is correct within italics because the two Italian phrases raising the error are independent clauses.</reason>
 		</ignore>
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Paragraph begins with lowercase letter per Joyce's prose style.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-11.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-043</code>
+		<ignore code="t-043">
 			<reason>Joyce's italics are not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Missing ending punctuation is correct per pre-1929 page scans.</reason>
 		</ignore>
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-12.xhtml">
-		<ignore>
-			<code>c-015</code>
+		<ignore code="c-015">
 			<reason>Custom CSS used for this letter header to match scans.</reason>
 		</ignore>
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>The non-English phrases are independent clauses.</reason>
 		</ignore>
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-043</code>
+		<ignore code="t-043">
 			<reason>Joyce's italics are not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-13.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-043</code>
+		<ignore code="t-043">
 			<reason>Joyce's italics are not modified in this production.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-14.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>y-001</code>
+		<ignore code="y-001">
 			<reason>Repeated 'and' is probably erroneous but only corrected post-1929.</reason>
 		</ignore>
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-15.xhtml">
-		<ignore>
-			<code>s-063</code>
+		<ignore code="s-063">
 			<reason>Personae are tagged within stage directions but are not set in small caps in the scans.</reason>
 		</ignore>
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-043</code>
+		<ignore code="t-043">
 			<reason>Joyce's italics are not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-045</code>
+		<ignore code="t-045">
 			<reason>Personae occur within stage directions and are not set in small caps, therefore remain in italics.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-16.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-043</code>
+		<ignore code="t-043">
 			<reason>Joyce's italics are not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>y-024</code>
+		<ignore code="y-024">
 			<reason>Text is as-is in print.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-17.xhtml">
-		<ignore>
-			<code>c-011</code>
+		<ignore code="c-011">
 			<reason>Paragraph is center-aligned to match scans.</reason>
 		</ignore>
-		<ignore>
-			<code>t-010</code>
+		<ignore code="t-010">
 			<reason>Time setting is not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-032</code>
+		<ignore code="t-032">
 			<reason>The period terminates the sentence; the initialism in question lacks periods.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Joyce's titlecasing is not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>y-034</code>
+		<ignore code="y-034">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-18.xhtml">
-		<ignore>
-			<code>t-030</code>
+		<ignore code="t-030">
 			<reason>Spaces in initialisms are retained in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>t-057</code>
+		<ignore code="t-057">
 			<reason>Paragraphs beginning with lowercase letters is correct per the style of the monologue.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Titlecasing is not modified in this production.</reason>
 		</ignore>
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Paragraphs missing ending punctuation is correct per the style of the monologue.</reason>
 		</ignore>
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
