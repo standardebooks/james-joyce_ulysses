@@ -70,6 +70,9 @@
 		<meta id="collection-3" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
 		<meta property="group-position" refines="#collection-3">46</meta>
+		<meta id="collection-4" property="belongs-to-collection">The Guardian’s 100 Best Novels of All Time (2026)</meta>
+		<meta property="collection-type" refines="#collection-4">set</meta>
+		<meta property="group-position" refines="#collection-4">3</meta>
 		<dc:description id="description">A man passes a day in early twentieth-century Dublin, in a journey patterned on Homer’s Odyssey.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/james-joyce"&gt;James Joyce’s&lt;/a&gt; most celebrated novel, and one of the most highly regarded novels in the English language, records the events of one day—Thursday the 16th of June, 1904—in the city of Dublin.&lt;/p&gt;
