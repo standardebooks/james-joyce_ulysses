@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/james-joyce/ulysses</dc:identifier>
 		<dc:date>2024-05-28T04:49:30Z</dc:date>
 		<meta property="dcterms:modified">2024-05-28T04:49:30Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -60,7 +61,7 @@
 		<meta property="term" refines="#subject-9">sh2008106076</meta>
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">sh2007100744</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Novels</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
@@ -95,27 +96,28 @@
 		<dc:source>https://archive.org/details/ulyssesshake1922_1large</dc:source>
 		<!--Scans of 1927 Shakespeare and Company ninth printing (second edition)-->
 		<dc:source>https://archive.org/details/ulyssesroth1929</dc:source>
-		<meta property="se:production-notes">This ebook is based on Wikisource's transcription of the 1922 Shakespeare and Company first edition of Ulysses. The very first editorial decision made for the production of this Standard Ebooks edition was not to attempt to reproduce the 1922 first edition exactly, but to include later public domain changes or corrections as well. Below, this will be referred to as "the initial editorial decision," and it was made because the 1922 first edition contains a considerable number of what both Joyce considered, and scholars still consider, to be printing errors. Two sorts of changes were therefore made to the Wikisource transcription: typographical and editorial. The typographical changes consist of running the SE tool typogrify, without accepting some of its changes, notably additions of periods after titles, removals of periods and spaces from era abbreviations, and conversions of sequences of more than three periods to ellipses. The editorial changes consist of both corrections from the pre-1929 errata lists and emendations that do not appear in the errata lists; all appear in either a pre-1929 errata list or scans of a pre-1929 print edition, hence all changes are in the public domain. No editorial commits were made without basis in at least one set of public domain scans; that is, uniquely for this book within the SE corpus, any stylistic rule in the Standard Ebooks Manual of Style that would result in making an editorial commit was disregarded. (In particular, spelling and hyphenation were not modernized, and mismatched dashes and diacritics not made consistent.) The above-mentioned editorial changes can be categorized in turn into two further types: corrections accepted from Wikisource, who aimed both to exactly reproduce the 1922 first edition text and to provide corrections to that edition's errors within span tags in their HTML; and those made by the SE producer to bring the transcription into agreement with the 1927 9th printing scans instead of the 1922 scans. Not all of the corrections within span tags in the Wikisource transcription were in the public domain (that is, some were sourced from post-1929 print editions such as Gilbert's or Gabler's) and not all were attested (that is, some appear to have been invented by Wikisource contributors); all of these were checked against the 1922 scans, 1927 9th printing scans, 1932 Odyssey Press and 1937 Bodley Head scans where necessary, and Hans Walter Gabler's historical collation list; those that were either post-1929 or unattested were removed. Corrections made by the SE producer consist in changing the 1922 text to conform to the 1927 9th printing when the 1922 text appeared erroneous and the 1927 text correct. Each such case was checked against Hans Walter Gabler's historical collation list in the hope of determining the frequency of each variant across editions. However, individual judgement with respect to "erroneous," "correct," and whether or not those descriptors make sense or whether equally possible variants were in question was (we think inevitably, given the initial editorial decision) exercised in these cases. Further, the relevant discrepancy between the 1922 and 1927 editions used was not always noted in Gabler's collation list. The reason for each change from 1922 to 1927 in this SE edition may be viewed in a spreadsheet available to any reader by contacting the Standard Ebooks mailing list, where readers are also welcome to raise any issues with the production. The 1927 Shakespeare and Company 9th printing was used throughout the project because we found no other pre-1929 second edition scans online, and we considered that there were diminishing returns, for a general reader's edition, on the number of pre-1929 printings used as source scans. The 1927 9th printing introduces sometimes substantial printing errors of its own, and so it is worth emphasizing that this SE edition does not aim to exactly reproduce any pre-1929 print edition; it aims to contain the union of what can reasonably be regarded as justifiable or "correct" in both main sets of scans used. In some cases, neither the 1922 nor 1927 scans could reasonably be regarded as "correct," or there was so much variation across editions (both PD and non-PD) that no such thing as a "correct" variant could, it seemed to us, reasonably be said to exist. In these latter cases, the 1922 and 1927 scans often agreed; where they differed, and each appeared equally reasonable (or unreasonable), the 1922 variant was often retained to avoid changes for change's sake. Again, individual judgement had to be used in such instances given the initial editorial decision. In the future, when e.g. the 1932 Odyssey Press edition edited by Stuart Gilbert or the 1937 Bodley Head edition enters the public domain, it will be possible to simply aim to exactly match one of those edition's scans, without having to handle the extent of misprints present in the 1922 Shakespeare and Company's first edition's first printing or 1927 Shakespeare and Company's second edition's 9th printing. The target audience for this ebook edition of Ulysses is general readers, not scholars; this is also part of the justification of the initial editorial decision: we thought that general readers would prefer a blended edition with fewer disruptive and meaningless errors (such as, for example, missing spaces between the period terminating a sentence and the first letter of the next sentence) than an exact replica of the first edition's first printing, which we took to be of more scholarly interest. While these production notes are intended to answer the major questions about our method in approaching a text with such a complex publication history, any further questions or suggestions can be directed to the Standard Ebooks mailing list. Also see [this spreadsheet](https://docs.google.com/spreadsheets/d/1qK4QliV9LNbVcAaz6PeWeHIaTWTTv4HvwW5yFJg7MxM)</meta>
-		<meta property="se:word-count">264258</meta>
-		<meta property="se:reading-ease.flesch">74.9</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Ulysses_(novel)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/james-joyce_ulysses</meta>
+		<meta property="schema:wordCount">264258</meta>
+		<meta property="schema:educationalLevel">74.9</meta>
+		<link href="https://en.wikipedia.org/wiki/Ulysses_(novel)" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/james-joyce_ulysses" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">James Joyce</dc:creator>
 		<meta property="file-as" refines="#author">Joyce, James</meta>
-		<meta property="se:name.person.full-name" refines="#author">James Augustine Aloysius Joyce</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/James_Joyce</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79056824</meta>
+		<meta property="schema:alternateName" refines="#author">James Augustine Aloysius Joyce</meta>
+		<link href="https://en.wikipedia.org/wiki/James_Joyce" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79056824.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Maurice Denis</dc:contributor>
 		<meta property="file-as" refines="#artist">Denis, Maurice</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Maurice_Denis</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n82110229</meta>
+		<link href="https://en.wikipedia.org/wiki/Maurice_Denis" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82110229.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org/</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-1">https://en.wikipedia.org/wiki/Wikisource</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber-1" rel="schema:url"/>
+		<link href="https://en.wikipedia.org/wiki/Wikisource" refines="#transcriber-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Erin Endrei</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Endrei, Erin</meta>
@@ -129,7 +131,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
