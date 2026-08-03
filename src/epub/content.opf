@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/james-joyce/ulysses</dc:identifier>
 		<dc:date>2024-05-28T04:49:30Z</dc:date>
@@ -77,8 +77,8 @@
 		<meta id="collection-5" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-5">set</meta>
 		<meta property="group-position" refines="#collection-5">45</meta>
-		<dc:description id="description">A man passes a day in early twentieth-century Dublin, in a journey patterned on Homer’s Odyssey.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A man passes a day in early twentieth-century Dublin, in a journey patterned on Homer’s Odyssey.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/james-joyce"&gt;James Joyce’s&lt;/a&gt; most celebrated novel, and one of the most highly regarded novels in the English language, records the events of one day—Thursday the 16th of June, 1904—in the city of Dublin.&lt;/p&gt;
 			&lt;p&gt;The reader is first reintroduced to Stephen Dedalus, the protagonist of Joyce’s previous novel &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/james-joyce/a-portrait-of-the-artist-as-a-young-man"&gt;A Portrait of the Artist as a Young Man&lt;/a&gt;&lt;/i&gt;. Stephen is now living in a rented Martello tower and working at a school, having completed his B.A. and a period of attempted further study in Paris. The focus then shifts to the book’s protagonist, Leopold Bloom, an advertising canvasser and social outsider. It is a work day, so both Bloom and Stephen depart their homes for their respective journeys around Dublin.&lt;/p&gt;
 			&lt;p&gt;While containing a richly detailed story and still being generally described as a novel, &lt;i&gt;Ulysses&lt;/i&gt; breaks many of the bounds otherwise associated with the form. It consists of eighteen chapters, or “episodes,” each somehow echoing a scene in &lt;a href="https://standardebooks.org/ebooks/homer"&gt;Homer’s&lt;/a&gt; &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant"&gt;Odyssey&lt;/a&gt;&lt;/i&gt;. Each episode takes place in a different setting, and each is written in a different, and often unusual, style. The book’s chief innovation is commonly cited to be its expansion of the “free indirect discourse” or “interior monologue” technique that Joyce used in his previous two books.&lt;/p&gt;
@@ -89,7 +89,7 @@
 			&lt;p&gt;The sheer density of references in the text make &lt;i&gt;Ulysses&lt;/i&gt; a book that virtually demands of the reader access to critical interpretation; but it also makes it a book that is easily obscured by the industry of scholarship it has generated over the last century. The dismissal of a serious interpretation is tempting, but would trivialize Joyce’s enormous project as an extended joke or an elaborate exercise in ego. Likewise dismissing it as uninterpretable would ignore the profusion of earnest critical analyses.&lt;/p&gt;
 			&lt;p&gt;Today &lt;i&gt;Ulysses&lt;/i&gt; is considered by many to be the zenith of 20th century literature: both one of the richest, and also the most difficult, books to ever be written. To appreciate that is not to accept that it is unintelligible; rather, perhaps the best description of it is the one used of Ulysses himself in a 21st century translation of Homer’s epic—“complicated.”&lt;/p&gt;
 			&lt;p&gt;This Standard Ebooks edition is based on a transcription of the 1922 Shakespeare and Company first edition, with emendations from pre-1929 errata lists and the second edition in its 1927 ninth printing by Shakespeare and Company. It does not track any one particular edition, but rather is a blend of pre-1929 editions that aims to contain what scholars might consider to be the most accurate version of what was printed before 1929. Therefore, various probable misprints have been retained that were corrected in post-1929 editions.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://en.wikisource.org/wiki/Ulysses_(1922)</dc:source>
 		<!--Scans of 1922 Shakespeare and Company first edition-->
