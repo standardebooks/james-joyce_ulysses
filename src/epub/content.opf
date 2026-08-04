@@ -77,7 +77,7 @@
 		<meta id="collection-5" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-5">set</meta>
 		<meta property="group-position" refines="#collection-5">45</meta>
-		<dc:abstract>A man passes a day in early twentieth-century Dublin, in a journey patterned on Homer’s Odyssey.</dc:abstract>
+		<meta property="schema:abstract">A man passes a day in early twentieth-century Dublin, in a journey patterned on Homer’s Odyssey.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/james-joyce"&gt;James Joyce’s&lt;/a&gt; most celebrated novel, and one of the most highly regarded novels in the English language, records the events of one day—Thursday the 16th of June, 1904—in the city of Dublin.&lt;/p&gt;
 			&lt;p&gt;The reader is first reintroduced to Stephen Dedalus, the protagonist of Joyce’s previous novel &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/james-joyce/a-portrait-of-the-artist-as-a-young-man"&gt;A Portrait of the Artist as a Young Man&lt;/a&gt;&lt;/i&gt;. Stephen is now living in a rented Martello tower and working at a school, having completed his B.A. and a period of attempted further study in Paris. The focus then shifts to the book’s protagonist, Leopold Bloom, an advertising canvasser and social outsider. It is a work day, so both Bloom and Stephen depart their homes for their respective journeys around Dublin.&lt;/p&gt;
