@@ -354,6 +354,10 @@
 		</ignore>
 	</file>
 	<file path="chapter-18.xhtml">
+		<ignore code="t-015">
+			<line>10</line>
+			<reason>As printed.</reason>
+		</ignore>
 		<ignore code="t-030">
 			<line>10</line>
 			<line>11</line>
