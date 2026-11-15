@@ -212,10 +212,15 @@ footer{
 #chapter-17 table{
 	/* side-by-side tables by default */
 	border-spacing: 0;
-	display: inline-table;
 	font-variant-numeric: tabular-nums;
 	margin: 1em;
-	width: 45%;
+}
+
+@supports(display: inline-table){
+	#chapter-17 table{
+		display: inline-table;
+		width: 45%;
+	}
 }
 
 @media(max-width: 600px){
